@@ -10,10 +10,4 @@ This is a simple Flask application that increments a counter every time the home
 - Redis used for persisting and incrementing the hit count.
 - Docker Compose for easy deployment and scaling.
 
-## Project Structure
 
-/project
-├── app.py # Flask application file
-├── requirements.txt # Python dependencies file
-├── Dockerfile # Dockerfile for building the Flask application
-└── docker-compose.yml# Docker Compose file to orchestrate the Flask app and Redis service
